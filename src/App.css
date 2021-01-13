@@ -1,38 +1,99 @@
 .App {
   text-align: center;
+  background-color: #f8f9fa;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.intro {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  height: 100vh;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  background-color: #f8f9fa;
 }
-
-.App-link {
-  color: #61dafb;
+.main-content {
+  animation: main-in 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 3.5s both;
+  height: 0;
+  position: relative;
+  z-index: 100;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.intro-text {
+  animation: scale-in-hor-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both;
+}
+.hero {
+  background-image: url(./images/donad.jpg);
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: column;
+  text-align: left;
+  margin-bottom: 2rem;
+}
+.display-text-1 {
+  font-size: min(max(36px, 10vw),96px);
+  width: fit-content;
+  padding: 1rem;
+  background-color: #ffc107;
+  border: 1px solid #212529;
+  font-weight: 400;
+}
+.hero-text1 {
+  animation: hero-text 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 5s both;
+  padding-top: 0;
+}
+.hero-text2 {
+  margin-left: 15%;
+  margin-top: -1.5rem;
+  animation: hero-text 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 5.5s both;
+  padding-bottom: 0;
+}
+@keyframes scale-in-hor-left {
+  0% {
+    transform: scaleX(0);
+    transform-origin: 0% 0%;
+    opacity: 1;
   }
-  to {
-    transform: rotate(360deg);
+  10% {
+    transform: scaleX(1);
+    transform-origin: 0% 0%;
+    opacity: 1;
+  }
+  90% {
+    transform: scaleX(1);
+    transform-origin: 0% 0%;
+    opacity: 1;
+  }
+  100% {
+    transform: scaleX(0);
+    transform-origin: 0% 0%;
+    opacity: 1;
+  }
+}
+@keyframes main-in {
+  0% {
+    transform: scaleY(0);
+    transform-origin: 0% 100%;
+    height: 0;
+  }
+  100% {
+    transform: scaleY(1);
+    transform-origin: 0% 100%;
+    height: 100%;
+  }
+}
+@keyframes hero-text {
+  0% {
+    transform: scaleX(0);
+    transform-origin: 0% 0%;
+    opacity: 1;
+  }
+  100% {
+    transform: scaleX(1);
+    transform-origin: 0% 0%;
+    opacity: 1;
   }
 }
