@@ -1,8 +1,42 @@
 .App {
   text-align: center;
+  background-color: #343a40;
+}
+.head-box {
+  position: fixed;
+  top: 0;
+  z-index: 500;
+  color: #ffc107;
+  background: #343a40;
+  text-align: left;
+  animation: hero-text 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 4.5s both;
+}
+.bot {
+  display: none;
+}
+.loro {
+  display: none;
+}
+.telu {
+  color: #ffc107;
+  width: fit-content;
+  margin-left: auto;
+  background-color: #343a40;
+  padding: 1rem;
+  border-radius: 16px;
+}
+.bot-box {
+  position: fixed;
+  bottom: 0;
+  z-index: 500;
+  text-align: right;
+  padding-right: 2rem;
+  margin-bottom: 1rem;
+}
+.App-footer {
+  border-top: 1px solid #212529;
   background-color: #f8f9fa;
 }
-
 .intro {
   display: flex;
   justify-content: center;
@@ -11,7 +45,7 @@
   position: absolute;
   width: 100%;
   z-index: 1;
-  background-color: #f8f9fa;
+  background-color: #343a40;
 }
 .main-content {
   animation: main-in 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 3.5s both;
@@ -41,6 +75,25 @@
   border: 1px solid #212529;
   font-weight: 400;
 }
+.display-text-2 {
+  width: fit-content;
+  font-size: min(max(20px, 4vw),36px);
+  border: 1px solid #212529;
+  font-weight: 400;
+  align-self: center;
+  margin-top: 2rem;
+  animation: hero-text 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 6s both;
+}
+.down-box {
+  margin-top: -1rem;
+  align-self: center;
+  transform: rotate(180deg);
+  color: black;
+  animation: hero-text2 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 7s both;
+}
+.down {
+  animation: bounce-top 0.9s infinite 7s both;
+}
 .hero-text1 {
   animation: hero-text 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 5s both;
   padding-top: 0;
@@ -50,6 +103,34 @@
   margin-top: -1.5rem;
   animation: hero-text 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 5.5s both;
   padding-bottom: 0;
+}
+.variant-tag {
+  color: #ffc107;
+  margin-bottom: 2rem;
+}
+.variant {
+  padding: 15px;
+}
+.variant-item {
+  border: 2px solid #ffc107;
+  background-color: #f8f9fa;
+}
+.ima {
+  height: 20vh;
+  background-size: cover;
+}
+.satu {
+  background-image: url(./images/donatcoklat.jpg);
+}
+.dua {
+  background-image: url(./images/donatgreen.jpg);
+}
+.contact-box {
+  background-color: #f8f9fa;
+  margin-top: 2rem;
+}
+.contact {
+  margin-top: 1rem;
 }
 @keyframes scale-in-hor-left {
   0% {
@@ -94,6 +175,55 @@
   100% {
     transform: scaleX(1);
     transform-origin: 0% 0%;
+    opacity: 1;
+  }
+}
+@keyframes bounce-top {
+  0% {
+    transform: translateY(-45px);
+    animation-timing-function: ease-in;
+    opacity: 1;
+  }
+  24% {
+    opacity: 1;
+  }
+  40% {
+    transform: translateY(-24px);
+    animation-timing-function: ease-in;
+  }
+  65% {
+    transform: translateY(-12px);
+    animation-timing-function: ease-in;
+  }
+  82% {
+    transform: translateY(-6px);
+    animation-timing-function: ease-in;
+  }
+  93% {
+    transform: translateY(-4px);
+    animation-timing-function: ease-in;
+  }
+  25%,
+  55%,
+  75%,
+  87% {
+    transform: translateY(0px);
+    animation-timing-function: ease-out;
+  }
+  100% {
+    transform: translateY(0px);
+    animation-timing-function: ease-out;
+    opacity: 1;
+  }
+}
+
+@keyframes hero-text2 {
+  0% {
+    transform: rotate(180deg);
+    opacity: 0;
+  }
+  100% {
+    transform: rotate(180deg);
     opacity: 1;
   }
 }
