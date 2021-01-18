@@ -24,8 +24,7 @@ class Head extends React.Component {
                 <h4 className={this.state.className} >Donad</h4>
             </Container>
             <Container fluid className='bot-box'>
-                <a href='/'>
-                <h5 className={this.state.siji}>Logo</h5></a>
+                <h5 className={this.state.siji}>Logo</h5>
             </Container>
             </>
         )

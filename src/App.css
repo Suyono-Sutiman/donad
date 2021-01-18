@@ -24,6 +24,7 @@
   background-color: #343a40;
   padding: 1rem;
   border-radius: 16px;
+  display: none;
 }
 .bot-box {
   position: fixed;
@@ -125,12 +126,23 @@
 .dua {
   background-image: url(./images/donatgreen.jpg);
 }
+.tiga {
+  background-image: url(./images/donatgula.jpg);
+}
+.empat {
+  background-image: url(./images/donatmeses.jpg);
+}
+.lima {
+  background-image: url(./images/donatstrawbery.jpg);
+}
 .contact-box {
   background-color: #f8f9fa;
   margin-top: 2rem;
 }
 .contact {
   margin-top: 1rem;
+  position: relative;
+  z-index: 1000;
 }
 @keyframes scale-in-hor-left {
   0% {

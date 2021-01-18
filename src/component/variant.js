@@ -30,10 +30,10 @@ function Variant(){
                     </div>
                 </Col>
                 <Col xs={12} md={6} lg={4} className='variant'>
-                    <div className='variant-item ima satu'>
+                    <div className='variant-item ima tiga'>
                     </div>
                     <div className='variant-item'>
-                    <h3>Donat Coklat</h3>
+                    <h3>Donat Gula</h3>
                     <h5>
                         Mini: @1000<br/>
                         Big: @2000
@@ -41,10 +41,10 @@ function Variant(){
                     </div>
                 </Col>
                 <Col xs={12} md={6} lg={4} className='variant'>
-                    <div className='variant-item ima dua'>
+                    <div className='variant-item ima empat'>
                     </div>
                     <div className='variant-item'>
-                    <h3>Donat Green Tea</h3>
+                    <h3>Donat Meses</h3>
                     <h5>
                         Mini: @1000<br/>
                         Big: @2000
@@ -52,32 +52,10 @@ function Variant(){
                     </div>
                 </Col>
                 <Col xs={12} md={6} lg={4} className='variant'>
-                    <div className='variant-item ima satu'>
+                    <div className='variant-item ima lima'>
                     </div>
                     <div className='variant-item'>
-                    <h3>Donat Coklat</h3>
-                    <h5>
-                        Mini: @1000<br/>
-                        Big: @2000
-                    </h5>
-                    </div>
-                </Col>
-                <Col xs={12} md={6} lg={4} className='variant'>
-                    <div className='variant-item ima dua'>
-                    </div>
-                    <div className='variant-item'>
-                    <h3>Donat Green Tea</h3>
-                    <h5>
-                        Mini: @1000<br/>
-                        Big: @2000
-                    </h5>
-                    </div>
-                </Col>
-                <Col xs={12} md={6} lg={4} className='variant'>
-                    <div className='variant-item ima satu'>
-                    </div>
-                    <div className='variant-item'>
-                    <h3>Donat Coklat</h3>
+                    <h3>Donat Strawbery</h3>
                     <h5>
                         Mini: @1000<br/>
                         Big: @2000
