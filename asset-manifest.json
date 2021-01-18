@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/donad/static/css/main.b7a8e3ad.chunk.css",
-    "main.js": "/donad/static/js/main.572256c1.chunk.js",
-    "main.js.map": "/donad/static/js/main.572256c1.chunk.js.map",
+    "main.css": "/donad/static/css/main.504fe1dc.chunk.css",
+    "main.js": "/donad/static/js/main.724f7923.chunk.js",
+    "main.js.map": "/donad/static/js/main.724f7923.chunk.js.map",
     "runtime-main.js": "/donad/static/js/runtime-main.043467a1.js",
     "runtime-main.js.map": "/donad/static/js/runtime-main.043467a1.js.map",
     "static/css/2.ae9f1eb3.chunk.css": "/donad/static/css/2.ae9f1eb3.chunk.css",
@@ -12,15 +12,15 @@
     "static/js/3.79afb71c.chunk.js.map": "/donad/static/js/3.79afb71c.chunk.js.map",
     "index.html": "/donad/index.html",
     "static/css/2.ae9f1eb3.chunk.css.map": "/donad/static/css/2.ae9f1eb3.chunk.css.map",
-    "static/css/main.b7a8e3ad.chunk.css.map": "/donad/static/css/main.b7a8e3ad.chunk.css.map",
+    "static/css/main.504fe1dc.chunk.css.map": "/donad/static/css/main.504fe1dc.chunk.css.map",
     "static/js/2.5efaab07.chunk.js.LICENSE.txt": "/donad/static/js/2.5efaab07.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/donad/static/media/donatgreen.7604d999.jpg"
+    "static/media/App.css": "/donad/static/media/donatstrawbery.b8bb3fba.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.043467a1.js",
     "static/css/2.ae9f1eb3.chunk.css",
     "static/js/2.5efaab07.chunk.js",
-    "static/css/main.b7a8e3ad.chunk.css",
-    "static/js/main.572256c1.chunk.js"
+    "static/css/main.504fe1dc.chunk.css",
+    "static/js/main.724f7923.chunk.js"
   ]
 }
